@@ -10,5 +10,14 @@ document.getElementById('currency-form').addEventListener('submit', function(eve
  
   const paraMoeda = document.getElementById ('paraMoeda').value;
 
+  // comversão simples
+  let valorComvertido;
+  if(daMoeda === paraMoeda){
+    valorComvertido = valor;
+  }else{
+    
+  }
+
+
 
 });
